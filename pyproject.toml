@@ -8,6 +8,8 @@ license = "MIT"
 [tool.poetry.dependencies]
 python = "^3.10"
 pytest = "^7.2.1"
+fastapi = {extras = ["all"], version = "^0.89.1"}
+pillow-heif = "^0.9.3"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.2.1"

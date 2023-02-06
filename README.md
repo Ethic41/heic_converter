@@ -1,1 +1,2 @@
-# Faster - one stop fastapi template
+# A simple HEIF or HEIC to PNG converter
+

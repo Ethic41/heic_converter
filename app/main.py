@@ -6,8 +6,9 @@
 # @Link    : link
 # @Version : 1.0.0
 
-from fastapi import FastAPI, UploadFile
-
+from fastapi import FastAPI
+from app.converter import router
 
 app = FastAPI()
 
+app.include_router(router.converter_router)
